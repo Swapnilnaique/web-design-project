@@ -1,7 +1,8 @@
 * {
-       margin: 0px;
+  margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  /* overflow-x: hidden; */
 }
 
 body {
@@ -162,9 +163,83 @@ div.info h1 {
   padding: 5px;
   margin: 20px;
 }
+/* text animation scroll triggered */
+/* 
+.about {
+  margin:0;
+  padding:0;
+  outline:none;
+  list-style:none;
+  text-decoration:none;
+  box-sizing:border-box;
+}
+
+.home  {
+  height: 100%;
+  width: 100%;
+  background: rgb(240,240,240);
+}
+
+.intro-text{
+  text-transform:uppercase;
+  font-size:320px;
+  text-align:center;
+  height: 400px;
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+  overflow:hidden;
+  color:#fff;
+}
+
+.intro-text > span {
+	height: 100%;
+  display: block;
+  margin: 0 10%;
+  width: 50%;
+  position: relative;
+}
+
+.intro-text > span > span {
+	display: inline-block;
+  position: absolute;
+  text-shadow: 10px 15px 30px rgba(0,0,0,0.2);
+}
+
+.intro-text > span > span:nth-of-type(1) {
+	left: 0;
+  z-index: 1;
+}
+.intro-text > span > span:nth-of-type(2) {
+	left: 120px;
+  z-index: 2;
+  animation: animate 3s linear alternate infinite;
+}
+.intro-text > span > span:nth-of-type(3) {
+	left: 260px;
+  z-index: 1;
+}
+.intro-text > span > span:nth-of-type(4) {
+	left: 380px;
+  z-index: 3;
+  animation: animate 3s linear alternate-reverse infinite;
+}
+.intro-text > span > span:nth-of-type(5) {
+	left: 520px;
+  z-index: 1;
+}
+.intro-text > span > span:nth-of-type(6) {
+	left: 625px;
+  z-index: 2;
+  animation: animate 3s linear alternate infinite;
+}
 
 
-.bg1 {
+@keyframes animate {
+  0%{transform:translateY(10px);}
+  100%{transform:translateY(-10px);}
+} */
+/* .bg1 {
   background-color: #ccc;
 }
 /* .bg2 {
@@ -175,7 +250,7 @@ h1 {
   line-height: 1.2;
   margin: 0;
 } */
-.revealUp {
+/* .revealUp {
   opacity: 0;
   visibility: hidden;
 }
@@ -186,7 +261,17 @@ h1 {
 
 .about ,.section_bg1{
   height: 90vh;
+} */ */
+
+/* .box.bottom{
+  transform: translateY(200px) scaleX(3);
+  opacity: 0;
+  background: #EDE580;
 }
+.box.active{
+  transform: translateX(0);
+  opacity: 1; */
+/* } */
 
 /* shop */
 .shop {
