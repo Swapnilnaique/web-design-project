@@ -95,6 +95,7 @@ nav a {
 .info h1 {
   animation: 2s lineUp ease-in-out 1;
   font-size: 80px;
+  /* text-shadow: 2px 1px 3px; */
 }
 /* text animation */
 @keyframes lineUp {
@@ -160,6 +161,31 @@ div.info h1 {
   border-radius: 10px;
   padding: 5px;
   margin: 20px;
+}
+
+
+.bg1 {
+  background-color: #ccc;
+}
+/* .bg2 {
+  background-color: #333;
+}
+h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  margin: 0;
+} */
+.revealUp {
+  opacity: 0;
+  visibility: hidden;
+}
+.spacer {
+  height: 50vh;
+  background-color: #000;
+}
+
+.about ,.section_bg1{
+  height: 90vh;
 }
 
 /* shop */
