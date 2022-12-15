@@ -167,9 +167,10 @@ div.info h1 {
 }
 
 /* text for scroll triggered animation */
+
 .info2 {
   /* border: 2px solid black; */
-  height: 200px;
+  height: 350px;
   width: 769px;
   justify-content: center;
   align-items: center;
@@ -178,11 +179,20 @@ div.info h1 {
   position: relative;
   bottom: 350px;
   left: 100px;
+  cursor: default;
+  border-radius: 20px;
+}
+
+.info2:hover {
+  /* border: 2px solid black; */
+  box-shadow: 2px 2px 5px rgba(87, 87, 87, 0.854);
+  border-radius: 20px;
 }
 
 .info2 p {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 25px;
+  padding: 15px;
 }
 
 .info2 h1 {
@@ -198,8 +208,9 @@ div.info h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 80px;
+  padding: 20px;
 }
-/* text animation scroll triggered */
+/* text animation scroll  */
 .hidden {
   opacity: 0;
   filter: blur(10px);
